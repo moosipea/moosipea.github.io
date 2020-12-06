@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>PF randomiser</title>
+        <link rel="icon" href="jam.ico"/>
+    </head>
+    <body>
+        <a class="backSign" href="../index.html">&#10094;</a>
+        <div class="uibox">
+            <p style="font-family: Consolas;">Mode: </p>
+            <select name="categories" id="categories" class="interact">
+                <option value="0">Primaries</option>
+                <option value="1">Secondaries</option>
+                <option value="2">Primary + Secondary</option>
+                <option value="3">Primary & Secondary</option>
+            </select>
+
+            <p style="font-family: Consolas;">Maximum rank: </p>
+            <input type="number" id="maxrank" class="interact">
+
+            <button onclick="randomise()" class="interact">Randomise</button>
+
+
+            <p id="result" class="result"></p>
+            <img src="" alt="" id="resultImg">
+            <img src="" alt="" id="resultImgSecondary">
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>

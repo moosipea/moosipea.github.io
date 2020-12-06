@@ -1,0 +1,25 @@
+a {
+    color: black;
+}
+
+div {
+    position: absolute;
+    left: 33%;
+    width: 33%;
+    height: 50%;
+    top: 25%;
+    background-color: rgb(205, 212, 99);
+    text-align: center;
+    font-size: 50;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+p {
+    color: cyan;
+    font-size: 80;
+    font-family: "Comic Sans MS";
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}

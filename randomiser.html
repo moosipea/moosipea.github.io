@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>PF randomiser</title>
+    </head>
+    <body>
+        <div class="uibox">
+            <button onclick="randomise()" class="interact">Randomise</button>
+
+            <select name="categories" id="categories" class="interact">
+                <option value="0">Primaries</option>
+                <option value="1">Secondaries</option>
+                <option value="2">Primary + Secondary</option>
+                <option value="3">Primary & Secondary</option>
+            </select>
+
+            <input type="number" id="maxrank" class="interact">
+
+            <p id="result" class="result"></p>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
